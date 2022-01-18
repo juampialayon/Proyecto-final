@@ -1,0 +1,15 @@
+@import "vars";
+
+#form_index {
+    p {
+        font-size: $fuenteSize;
+        color: $colorTexto;
+    }
+}
+
+footer {
+    h4 {
+        position: relative;
+        right: 2%;
+    }
+}

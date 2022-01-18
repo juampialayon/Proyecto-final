@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paso_3</title>
+    <!-- Para SCSS -->
+    <link rel="stylesheet" href="./SCSS/style.css">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+</head>
+
+<body background="https://cdn.pixabay.com/photo/2013/05/28/20/30/canal-114290_960_720.jpg">
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+        <li><a href="./index.html">Paso 1</a></li>
+        <li><a href="./Paso_2.html">Paso 2</a></li>
+        <li><a href="./Paso_3.html">Paso 3</a></li>
+        <li><a href="./Sobre_nosotros.html">Sobre nosotros</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+    
+        </header>
+
+
+
+        <div class="cuadrado3"></div>
+
+    <form class="form_paso3">
+
+<p class="caracteristicas_propiedad">Características de la propiedad</p>
+
+<div class="superficie">
+<label for="superficie_total">Superficie Total</label>
+<input type="number" id="superficie_total">
+<br><br>
+
+<label for="superficie_cubierta">Superficie cubierta</label>
+<input type="number" id="superficie_cubierta">
+</div>
+
+<div class="orientacion_y_acceso">
+<label for="orientacion">Orientación</label>
+<select name="orientacion" id="orientacion">
+    <option value="al_frente">Al frente</option>
+    <option value="contrafrente">Contrafrente</option>
+    <option value="lateral">Lateral</option>
+    <option value="interno">Interno</option>
+</select>
+<br><br>
+
+<label for="acceso">Acceso</label>
+<select name="acceso" id="acceso">
+    <option value="ascensor">Ascensor</option>
+    <option value="escalera">Escalera</option>
+    <option value="localizado_en_PB">Localizado en PB</option>
+</select>
+</div>
+
+<div class="antiguedad_y_cochera">
+<label for="antiguedad">Antiguedad</label>
+<select name="antiguedad" id="antiguedad">
+    <option value="a_estrenar">A estrenar</option>
+    <option value="-4">Menos de 4 años</option>
+    <option value="5_a_9">De 5 a 9 años</option>
+    <option value="10_a_15">De 10 a 15 años</option>
+    <option value="16+">16 años o más</option>
+</select>
+<br><br>
+
+<label for="cochera">Cochera</label>
+<select name="cochera" id="cochera">
+    <option value="no_tiene">No tiene</option>
+    <option value="posee_1">Posee 1</option>
+    <option value="posee_2">Posee 2</option>
+    <option value="posee_3">Posee 3</option>
+    <option value="4+">4 o más</option>
+</select>
+</div>
+
+<div class="condicion_y_plantas">
+<label for="condicion">Condición</label>
+<select name="condicion" id="condicion">
+    <option value="muy_bueno">Muy bueno</option>
+    <option value="bueno">Bueno</option>
+    <option value="regular">Regular</option>
+    <option value="a_refaccionar">A refaccionar</option>
+</select>
+<br><br>
+
+<label for="plantas">Plantas</label>
+<input type="number" name="plantas" id="plantas">
+<br><br>
+</div>
+
+<div class="luminosidad_y_calidad">
+<label for="luminosidad">Luminosidad</label>
+<select name="luminosidad" id="luminosidad">
+    <option value="muy_luminoso">Muy luminoso</option>
+    <option value="medianamente_luminoso">Medianamente luminoso</option>
+    <option value="poco_luminoso">Poco luminoso</option>
+</select>
+<br><br>
+
+<label for="calidad_constructiva">Calidad constructiva</label>
+<select name="calidad_constructiva" id="calidad_constructiva">
+    <option value="muy_buena">Muy buena</option>
+    <option value="buena">Buena</option>
+    <option value="regular">Regular</option>
+    <option value="mala">Mala</option>
+</select>
+</div>
+
+<div class="motivo_y_amenities">
+<label for="motivo_de_tasacion">Motivo de tasación</label>
+<select name="motivo_de_tasacion" id="motivo_de_tasacion">
+    <option value="venta">Venta</option>
+    <option value="alquiler">Alquiler</option>
+    <option value="sucesion">Sucesión</option>
+    <option value="curiosidad">Curiosidad</option>
+</select>
+
+<label for="amenities">Amenities</label>
+<select name="amenities" id="amenities">
+    <option type="checkbox" name="piscina" value="piscina">Piscina<br>
+    <option type="checkbox" name="jacuzzi" value="jacuzzi">Jacuzzi<br>
+    <option type="checkbox" name="gimnasio" value="gimnasio">Gimnasio<br>
+    <option type="checkbox" name="salon_multiusos" value="Salón Multiusos">Salón Multiusos<br>
+    <option type="checkbox" name="patio_con_jardin" value="Patio con jardín">Patio con jardín<br>
+    <option type="checkbox" name="solarium" value="solarium">Solarium<br>
+    <option type="checkbox" name="parrillero" value="parrillero">Parrillero<br>
+    <option type="checkbox" name="sauna" value="sauna">Sauna<br>
+</select>
+</div>
+<br>
+
+<div class="botones3">
+    <button type="submit" class="btn btn-outline-light">Siguiente</button>
+    <button type="reset" class="btn btn-outline-light">Deshacer</button>
+</div>
+
+</form>
+
+    
+    <footer>
+
+        <h4>Seguinos en nuestras redes</h4>
+        <a href="https://www.facebook.com/" target="_blank" class="facebook"><img src="./img/logo Facebook.png" alt="Contacto Facebook" width="60px" height="auto"></a>
+        <a href="https://www.instagram.com/?hl=es" target="_blank" class="instagram"><img src="./img/logo instagram.svg" alt="Contacto Instagram" width="35px" height="auto"></a>
+        <a href="https://twitter.com/?lang=es" target="_blank" class="twitter"><img src="./img/Logo twitter.png" alt="Contacto Twitter" width="55px" height="auto"></a>
+        <a href="https://www.youtube.com/" target="_blank" class="youtube"><img src="./img/logo youtube.png" alt="Contacto Youtube" width="50px" height="auto"></a>
+    <br><br>
+    <p>Otro método de contacto: j.pabloalayon@gmail.com</p>
+    </footer>
+
+</body>
+</html>

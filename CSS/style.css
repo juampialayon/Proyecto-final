@@ -156,10 +156,10 @@ footer h4 {
 .cuadrado {
     background-color: black;
     width: 25%;
-    height: 60%;
+    height: 70%;
     position: absolute;
     opacity: 60%;
-    top: 8%;
+    top: 10%;
     left: 37.5%;
     z-index: -1;
 }
@@ -271,7 +271,7 @@ header ul .li__Paso_2 {
 }
 
 .form_paso3 {
-    margin-left: 15%;
+    margin-left: 11%;
     margin-top: 8%;
     color: white;
     padding-top: 2%;
@@ -280,7 +280,7 @@ header ul .li__Paso_2 {
 .cuadrado3 {
     background-color: black;
     width: 55%;
-    height: 55%;
+    height: 72%;
     position: absolute;
     opacity: 60%;
     top: 8%;
@@ -291,7 +291,7 @@ header ul .li__Paso_2 {
 }
 
 #superficie_total {
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 50px;
     width: 15%;
     height: 14%;
@@ -309,14 +309,14 @@ header ul .li__Paso_2 {
 }
 
 #orientacion {
-    margin-left: 46px;
+    margin-left: 56px;
     margin-right: 50px;
     width: 15%;
     height: 14%;
 }
 
 #acceso {
-    margin-left: 94px;
+    margin-left: 100px;
     width: 15%;
     height: 14%;
 }
@@ -327,14 +327,14 @@ header ul .li__Paso_2 {
 }
 
 #antiguedad {
-    margin-left: 47px;
+    margin-left: 56px;
     margin-right: 50px;
     width: 15%;
     height: 14%;
 }
 
 #cochera {
-    margin-left: 88px;
+    margin-left: 92px;
     width: 15%;
     height: 14%;
 }
@@ -345,7 +345,7 @@ header ul .li__Paso_2 {
 }
 
 #condicion {
-    margin-left: 54px;
+    margin-left: 67px;
     margin-right: 50px;
     width: 15%;
     height: 14%;
@@ -354,7 +354,7 @@ header ul .li__Paso_2 {
 #plantas {
     height: 14%;
     width: 15%;
-    margin-left: 96px;    
+    margin-left: 99px;    
 }
 
 .condicion_y_plantas {
@@ -365,14 +365,14 @@ header ul .li__Paso_2 {
 #luminosidad {
     height: 14%;
     width: 15%;
-    margin-left: 37px;
+    margin-left: 47px;
     margin-right: 48px;
 }
 
 #calidad_constructiva {
     height: 14%;
     width: 15%;
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 .luminosidad_y_calidad {
@@ -382,12 +382,13 @@ header ul .li__Paso_2 {
 
 #motivo_de_tasacion {
     width: 15%;
-    margin-right: 48px;
+    margin-left: 3px;
+    margin-right: 50px;
 }
 
 #amenities {
     width: 15%;
-    margin-left: 77px;
+    margin-left: 79px;
 }
 
 .motivo_y_amenities {

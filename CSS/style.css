@@ -66,8 +66,9 @@ footer h4 {
 }
 
 /* Sobre nosotros */
+
 .first-title{
-    text-shadow: 1px 1px 1px #fff;
+    color: white;
 }
 
 .fondoBody{
@@ -282,7 +283,7 @@ footer h4 {
 
 .datos_usuario {
     padding-bottom: 18px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #nombre {
@@ -291,23 +292,23 @@ footer h4 {
 }
 
 #apellido {
-    margin-left: 72px;
+    margin-left: 74px;
     width: 150px;
 }
 
 #correo {
-    margin-left: 15px;
+    margin-left: 8px;
     width: 150px;
 }
 
 #edad {
-    margin-left: 96px;
+    margin-left: 97px;
     width: 150px;
 }
 
 #sexo {
-    margin-left: 96px;
-    width: 159px;
+    margin-left: 99px;
+    width: 150px;
 }
 
 .submit {
@@ -348,30 +349,30 @@ header ul .li__Paso_2 {
 
 #departamento{
     margin-left: 36px;
-    width: 150px;;
+    width: 151px;;
 }
 #barrio {
-    margin-left: 86px;
-    width: 142px;
-}
-
-#calles {
-    margin-left: 86px;
-    width: 142px;
-}
-
-#numero_de_puerta {
-    margin-left: 11px;
-    width: 142px;
-}
-
-#tipo_de_inmueble {
-    margin-left: 14px;
+    margin-left: 96px;
     width: 150px;
 }
 
+#calles {
+    margin-left: 98px;
+    width: 150px;
+}
+
+#numero_de_puerta {
+    margin-left: 8px;
+    width: 150px;
+}
+
+#tipo_de_inmueble {
+    margin-left: 15px;
+    width: 151px;
+}
+
 .datos_propiedad {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .botones2 {
@@ -384,6 +385,7 @@ header ul .li__Paso_2 {
     padding-bottom: 15px;
     margin-left: -16%;
     text-align: center;
+    font-size: 18px;
 }
 
 .form_paso3 {
@@ -538,17 +540,17 @@ header ul .li__Paso_2 {
 }
 
 #apellido_contacto {
-    margin-left: 72px;
+    margin-left: 76px;
     width: 150px;
 }
 
 #correo_contacto {
-    margin-left: 8.5px;
+    margin-left: 4px;
     width: 150px;
 }
 
 #mensaje {
-    margin-left: 72px;
+    margin-left: 76px;
     width: 150px;
     height: 50px;
 }

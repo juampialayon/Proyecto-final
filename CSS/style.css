@@ -1,35 +1,74 @@
-/* General - Header y Footer */
-
-header {
-    display: grid;
+.body {
+    background-image: url('../img/Fondo\ imagen\ 2.jpg');
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
 }
 
-body {
-    background-size: contain;
+.color_link{
+    color: #fff;
+    font-size: 1.2rem;
 }
 
-footer {
-    margin-bottom: 0%;
+.color_link:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
 }
 
-header {
-    position: fixed;
-    top: 0;
-    background-color:honeydew;
-    height: 50px;
-    width: 5000px;
-    z-index: 1;
+.color_link2{
+    color: #000;
+    font-size: 1.2rem;
 }
 
-header ul li {
-    display: inline;
-    border: 2px solid black;
-    padding: 4px;
+.color_link2:hover{
+    text-decoration: none;
+    color: rgba(22, 22, 22, 0.719);
 }
 
-.titulo_paso_1 {
-    display: inline;
+.first-title{
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
 }
+
+
+
+/*----------------- Formulario ------------------*/
+
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.form__title{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+.input, select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
+/* Footer */
 
 footer {
     background-color: black;
@@ -78,6 +117,7 @@ footer h4 {
     background-position: center;
 }
 
+/* Tarjetas */
 
 .backimg{
     background-image: url("../img/Trabajador\ Henry.jpg");
@@ -183,15 +223,12 @@ footer h4 {
     margin-top: 25px;
     padding: 10px;
 }
-/* Tarjetas */
-/* TARJETA HENRY */
+/* Carrusel */
 
 #carouselExampleIndicators {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     position: relative;
-    left: 25%;
-    border: black 2px;
 }
 
 .middleH {
@@ -233,291 +270,6 @@ footer h4 {
 }
 .card:hover > .back{
     transform: perspective(600px) rotateY(0deg)
-}
-
-/* TARJETA CRISTINA */
-.middleC{
-    position: absolute;
-    top: 35%;
-    left: 68%;
-    transform: translate(-50%, -50%);
-}
-
-/* TARJETA ANDRES */
-.middleA{
-    position: absolute;
-    top: 90%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-}
-
-/* TARJETA JACKIE */
-.middleJ{
-    position: absolute;
-    top: 90%;
-    left: 68%;
-    transform: translate(-50%, -50%);
-}
-
-/* Página Index */
-/* Cuerpo */
-
-#form_index {
-    padding: 2.5%;
-    position: relative;
-    text-align: center;
-    color: white;
-    padding-top: 6%;
-}
-
-.cuadrado {
-    background-color: black;
-    width: 25%;
-    height: 70%;
-    position: absolute;
-    opacity: 60%;
-    top: 10%;
-    left: 37.5%;
-    z-index: -1;
-}
-
-.datos_usuario {
-    padding-bottom: 18px;
-    font-size: 18px;
-}
-
-#nombre {
-    margin-left: 76px;
-    width: 150px;
-}
-
-#apellido {
-    margin-left: 74px;
-    width: 150px;
-}
-
-#correo {
-    margin-left: 8px;
-    width: 150px;
-}
-
-#edad {
-    margin-left: 97px;
-    width: 150px;
-}
-
-#sexo {
-    margin-left: 99px;
-    width: 150px;
-}
-
-.submit {
-    width: 100px;
-    margin-right: 20px;
-}
-
-.reset {
-    width: 100px;
-    margin-left: 20px;
-}
-
-/* Paso_2 */
-/* Header */
-header ul .li__Paso_2 {
-    display: inline;
-}
-
-.header__Paso_2 {
-    background-color:honeydew;
-    height: 50px;
-    width: 5000px;
-    position: fixed;
-}
-
-/* Cuerpo */
-
-.form_paso2 {
-    text-align: center;
-    padding-top: 6%;
-    color: white;
-}
-
-#ubicacion {
-    width: 22%;
-    text-align: center;
-}
-
-#departamento{
-    margin-left: 36px;
-    width: 151px;;
-}
-#barrio {
-    margin-left: 96px;
-    width: 150px;
-}
-
-#calles {
-    margin-left: 98px;
-    width: 150px;
-}
-
-#numero_de_puerta {
-    margin-left: 8px;
-    width: 150px;
-}
-
-#tipo_de_inmueble {
-    margin-left: 15px;
-    width: 151px;
-}
-
-.datos_propiedad {
-    font-size: 18px;
-}
-
-.botones2 {
-    padding-top: 10px;
-}
-
-/* Paso 3 */
-/* cuerpo */
-.caracteristicas_propiedad {
-    padding-bottom: 15px;
-    margin-left: -16%;
-    text-align: center;
-    font-size: 18px;
-}
-
-.form_paso3 {
-    margin-left: 11%;
-    margin-top: 8%;
-    color: white;
-    padding-top: 2%;
-}
-
-.cuadrado3 {
-    background-color: black;
-    width: 55%;
-    height: 72%;
-    position: absolute;
-    opacity: 60%;
-    top: 8%;
-    left: 16%;
-    margin-left: 8%;
-    margin-top: 5%;
-    z-index: -1;
-}
-
-#superficie_total {
-    margin-left: 30px;
-    margin-right: 50px;
-    width: 15%;
-    height: 14%;
-}
-
-#superficie_cubierta {
-    margin-left: 20px;
-    width: 15%;
-    height: 14%;
-}
-
-.superficie {
-    display: flex;
-    margin-left: 230px;
-}
-
-#orientacion {
-    margin-left: 56px;
-    margin-right: 50px;
-    width: 15%;
-    height: 14%;
-}
-
-#acceso {
-    margin-left: 100px;
-    width: 15%;
-    height: 14%;
-}
-
-.orientacion_y_acceso {
-    display: flex;
-    margin-left: 230px;
-}
-
-#antiguedad {
-    margin-left: 56px;
-    margin-right: 50px;
-    width: 15%;
-    height: 14%;
-}
-
-#cochera {
-    margin-left: 92px;
-    width: 15%;
-    height: 14%;
-}
-
-.antiguedad_y_cochera {
-    display: flex;
-    margin-left: 230px;
-}
-
-#condicion {
-    margin-left: 67px;
-    margin-right: 50px;
-    width: 15%;
-    height: 14%;
-}
-
-#plantas {
-    height: 14%;
-    width: 15%;
-    margin-left: 99px;    
-}
-
-.condicion_y_plantas {
-    display: flex;
-    margin-left: 230px;
-}
-
-#luminosidad {
-    height: 14%;
-    width: 15%;
-    margin-left: 47px;
-    margin-right: 48px;
-}
-
-#calidad_constructiva {
-    height: 14%;
-    width: 15%;
-    margin-left: 10px;
-}
-
-.luminosidad_y_calidad {
-    display: flex;
-    margin-left: 230px;
-}
-
-#motivo_de_tasacion {
-    width: 15%;
-    margin-left: 3px;
-    margin-right: 50px;
-}
-
-#amenities {
-    width: 15%;
-    margin-left: 79px;
-}
-
-.motivo_y_amenities {
-    display: flex;
-    margin-left: 230px;
-}
-
-.botones3 {
-    display: flex;
-    margin-left: 37%;
-    padding-top: 5%;
 }
 
 /* Contacto */
@@ -565,5 +317,7 @@ header ul .li__Paso_2 {
     width: 100px;
 }
 
-/* Sobre nosotros */
-/* Cuerpo */
+/* wefghjhgfd */
+.form_paso3 {
+    color: white;
+}

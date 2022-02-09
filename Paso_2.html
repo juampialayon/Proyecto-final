@@ -14,7 +14,7 @@
     
 </head>
 
-<body background="./img/Fondo imagen 2.jpg">
+<body class="body">
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,70 +42,57 @@
                 </div>
             </div>
         </nav>
-    
-        </header>
+    </header>
 
 
-<div class="cuadrado"></div>
 
-<form class="form_paso2">
-<p class="datos_propiedad">Datos de la propiedad</p>
-
-<label for="ubicacion"></label>
-<input type="text" id="ubicacion" placeholder="Ingrese ubicación del inmueble">
-<br><br>
-
-<label for="departamento">Departamento</label>
-<select name="departamento" id="departamento">
-    <option value="artigas">Artigas</option>
-    <option value="canelones">Canelones</option>
-    <option value="cerro_largo">Cerro Largo</option>
-    <option value="colonia">Colonia</option>
-    <option value="durazno">Durazno</option>
-    <option value="flores">Flores</option>
-    <option value="florida">Florida</option>
-    <option value="lavalleja">Lavalleja</option>
-    <option value="maldonado">Maldonado</option>
-    <option value="montevideo">Montevideo</option>
-    <option value="paysandu">Paysandú</option>
-    <option value="rio_negro">Río Negro</option>
-    <option value="rivera">Rivera</option>
-    <option value="rocha">Rocha</option>
-    <option value="salto">Salto</option>
-    <option value="san_jose">San José</option>
-    <option value="soriano">Soriano</option>
-    <option value="tacuarembo">Tacuarembó</option>
-    <option value="treinta_y_tres">Treinta y Tres</option>
-</select>
-<br><br>
-
-<label for="barrio">Barrio</label>
-<input type="text" id="barrio" required>
-<br><br>
-
-<label for="calles">Calles</label>
-<input type="text" id="calles">
-<br><br>
-
-<label for="numero_de_puerta">Número de puerta</label>
-<input type="number" id="numero_de_puerta">
-<br><br>
-
-<label for="tipo_de_inmueble">Tipo de inmueble</label>
-<select name="tipo_de_inmueble" id="tipo_de_inmueble">
-    <option value="casa">Casa</option>
-    <option value="departamento">Departamento</option>
-    <option value="PH">PH</option>
-</select>
-<br><br>
-
-<div class="botones2">
-    <button type="submit" class="btn btn-outline-light">Siguiente</button>
-    <button type="reset" class="btn btn-outline-light">Deshacer</button>
-</div>
-
-</form>
-
+        <form action="">
+            <h1 class="form__title">Datos de la propiedad</h1>
+            <input type="text" placeholder="Ingrese la ubicación del inmueble" class="input">
+            <select name="departamento" id="departamento">
+                <option value="artigas">Artigas</option>
+                <option value="canelones">Canelones</option>
+                <option value="cerro_largo">Cerro Largo</option>
+                <option value="colonia">Colonia</option>
+                <option value="durazno">Durazno</option>
+                <option value="flores">Flores</option>
+                <option value="florida">Florida</option>
+                <option value="lavalleja">Lavalleja</option>
+                <option value="maldonado">Maldonado</option>
+                <option value="montevideo">Montevideo</option>
+                <option value="paysandu">Paysandú</option>
+                <option value="rio_negro">Río Negro</option>
+                <option value="rivera">Rivera</option>
+                <option value="rocha">Rocha</option>
+                <option value="salto">Salto</option>
+                <option value="san_jose">San José</option>
+                <option value="soriano">Soriano</option>
+                <option value="tacuarembo">Tacuarembó</option>
+                <option value="treinta_y_tres">Treinta y Tres</option>
+            </select>
+            <br><br>
+            <input type="text" class="input" placeholder="Barrio" required>
+            <input type="text" class="input" placeholder="Calles" required>
+            <input type="number" class="input" placeholder="Numero de Puertas" required>
+            <select name="tipo_de_inmueble" id="tipo_de_inmueble">
+                <option value="casa">Casa</option>
+                <option value="departamento">Departamento</option>
+                <option value="PH">PH</option>
+            </select>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-4">
+                            <button type="submit" class="btn btn-light">Enviar</button>
+                        </div>
+                        <div class="col-2">
+                            <button type="reset" class="btn btn-light">Deshacer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
 
 <footer>
 

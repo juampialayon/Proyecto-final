@@ -147,6 +147,20 @@ footer h4 {
     background-repeat: no-repeat;
 }
 
+.backimg__rosario{
+    background-image: url('../img/Trabajadora\ Rosario.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.backimg__alejandro{
+    background-image: url('../img/Trabajador\ Alejandro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .color-white{
     color: #fff;
     text-shadow: 1px 1px 1px #000;
@@ -272,52 +286,6 @@ footer h4 {
     transform: perspective(600px) rotateY(0deg)
 }
 
-/* Contacto */
-/* Cuerpo */
-.info_contacto {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.informacion_de_contacto {
-    font-size: 16px;
-    padding-top: 7%;
-    padding-bottom: 2%;
-}
-
-#nombre_contacto {
-    margin-left: 76px;
-    width: 150px;
-}
-
-#apellido_contacto {
-    margin-left: 76px;
-    width: 150px;
-}
-
-#correo_contacto {
-    margin-left: 4px;
-    width: 150px;
-}
-
-#mensaje {
-    margin-left: 76px;
-    width: 150px;
-    height: 50px;
-}
-
-.submit_contacto {
-    margin-left: 30px;
-    margin-right: 40px;
-    width: 100px;
-}
-
-.reset_contacto {
-    width: 100px;
-}
-
-/* wefghjhgfd */
-.form_paso3 {
+.titulo_paso_3 {
     color: white;
 }

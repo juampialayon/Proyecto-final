@@ -48,30 +48,28 @@
 
 
 
-    <form class="form_paso3">
+    <form action="">
 
-<p class="caracteristicas_propiedad">Características de la propiedad</p>
+<p class="form__title">Características de la propiedad</p>
 
 <div class="superficie">
-<label for="superficie_total">Superficie Total</label>
-<input type="number" id="superficie_total">
-<br><br>
+<input type="number" id="superficie_total" placeholder="Superficie total">
 
-<label for="superficie_cubierta">Superficie cubierta</label>
-<input type="number" id="superficie_cubierta">
+<input type="number" id="superficie_cubierta" placeholder="Superficie cubierta">
 </div>
 
-<div class="orientacion_y_acceso">
-<label for="orientacion">Orientación</label>
+<div class="titulo_paso_3">
+    <label for="orientacion">Orientación</label>
 <select name="orientacion" id="orientacion">
     <option value="al_frente">Al frente</option>
     <option value="contrafrente">Contrafrente</option>
     <option value="lateral">Lateral</option>
     <option value="interno">Interno</option>
 </select>
-<br><br>
+</div>
 
-<label for="acceso">Acceso</label>
+<div class="titulo_paso_3">
+    <label for="acceso">Acesso</label>
 <select name="acceso" id="acceso">
     <option value="ascensor">Ascensor</option>
     <option value="escalera">Escalera</option>
@@ -79,8 +77,8 @@
 </select>
 </div>
 
-<div class="antiguedad_y_cochera">
-<label for="antiguedad">Antiguedad</label>
+<div class="titulo_paso_3">
+    <label for="antiguedad">Antiguedad</label>
 <select name="antiguedad" id="antiguedad">
     <option value="a_estrenar">A estrenar</option>
     <option value="-4">Menos de 4 años</option>
@@ -88,9 +86,10 @@
     <option value="10_a_15">De 10 a 15 años</option>
     <option value="16+">16 años o más</option>
 </select>
-<br><br>
+</div>
 
-<label for="cochera">Cochera</label>
+<div class="titulo_paso_3">
+    <label for="cochera">Cochera</label>
 <select name="cochera" id="cochera">
     <option value="no_tiene">No tiene</option>
     <option value="posee_1">Posee 1</option>
@@ -100,7 +99,7 @@
 </select>
 </div>
 
-<div class="condicion_y_plantas">
+<div class="titulo_paso_3">
 <label for="condicion">Condición</label>
 <select name="condicion" id="condicion">
     <option value="muy_bueno">Muy bueno</option>
@@ -108,23 +107,23 @@
     <option value="regular">Regular</option>
     <option value="a_refaccionar">A refaccionar</option>
 </select>
-<br><br>
-
-<label for="plantas">Plantas</label>
-<input type="number" name="plantas" id="plantas">
-<br><br>
 </div>
 
-<div class="luminosidad_y_calidad">
-<label for="luminosidad">Luminosidad</label>
+<div class="plantas">
+<input type="number" name="plantas" id="plantas" placeholder="Plantas">
+</div>
+
+<div class="titulo_paso_3">
+    <label for="luminosidad">Luminosidad</label>
 <select name="luminosidad" id="luminosidad">
     <option value="muy_luminoso">Muy luminoso</option>
     <option value="medianamente_luminoso">Medianamente luminoso</option>
     <option value="poco_luminoso">Poco luminoso</option>
 </select>
-<br><br>
+</div>
 
-<label for="calidad_constructiva">Calidad constructiva</label>
+<div class="titulo_paso_3">
+    <label for="calidad_constructiva">Calidad constructiva</label>
 <select name="calidad_constructiva" id="calidad_constructiva">
     <option value="muy_buena">Muy buena</option>
     <option value="buena">Buena</option>
@@ -133,16 +132,18 @@
 </select>
 </div>
 
-<div class="motivo_y_amenities">
-<label for="motivo_de_tasacion">Motivo de tasación</label>
+<div class="titulo_paso_3">
+    <label for="motivo_de_tasacion">Motivo de tasación</label>
 <select name="motivo_de_tasacion" id="motivo_de_tasacion">
     <option value="venta">Venta</option>
     <option value="alquiler">Alquiler</option>
     <option value="sucesion">Sucesión</option>
     <option value="curiosidad">Curiosidad</option>
 </select>
+</div>
 
-<label for="amenities">Amenities</label>
+<div class="titulo_paso_3">
+    <label for="amenities">Amenities</label>
 <select name="amenities" id="amenities">
     <option type="checkbox" name="piscina" value="piscina">Piscina<br>
     <option type="checkbox" name="jacuzzi" value="jacuzzi">Jacuzzi<br>
@@ -155,10 +156,19 @@
 </select>
 </div>
 
-<div class="botones3">
-    <button type="submit" class="btn btn-outline-light">Siguiente</button>
-    <button type="reset" class="btn btn-outline-light">Deshacer</button>
+<div class="container">
+    <div class="row">
+        <div class="d-flex justify-content-center">
+            <div class="col-4">
+                <button type="submit" class="btn btn-light">Enviar</button>
+            </div>
+            <div class="col-2">
+                <button type="reset" class="btn btn-light">Deshacer</button>
+            </div>
+        </div>
+    </div>
 </div>
+</form>
 
 </form>
 

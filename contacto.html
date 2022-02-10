@@ -15,7 +15,7 @@
 
 </head>
 
-<body background="./img/Fondo imagen 2.jpg">
+<body class="body">
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,31 +47,39 @@
         </header>
 
 
-<div class="cuadrado"></div>
-
-    <from class="info_contacto">
-
-        <p class="informacion_de_contacto">Información de contacto</p>
+<form action="">
+    <p class="form__title">Información de contacto</p>
 
 <div>
-<label for="nombre_contacto">Nombre</label>
-<input type="text" name="nombre_contacto" id="nombre_contacto" required>
-<br><br>
+    <input type="text" name="nombre_contacto" id="nombre_contacto" placeholder="Nombre" required>
+</div>
 
-<label for="apellido_contacto">Apellido</label>
-<input type="text" name="apellido_contacto" id="apellido_contacto">
-<br><br>
+<div>
+    <input type="text" name="apellido_contacto" id="apellido_contacto" placeholder="Apellido">
+</div>
 
-<label for="correo_contacto">Correo electrónico</label>
-<input type="text" name="correo_contacto" id="correo_contacto" required>
-<br><br>
+<div>
+    <input type="text" name="correo_contacto" id="correo_contacto" placeholder="Correo electrónico" required>
+</div>
 
-<label for="mensaje">Mensaje</label>
-<input type="text" name="mensaje" id="mensaje" required>
-<br><br><br>
+<div>
+    <input type="text" name="mensaje" id="mensaje" placeholder="Mensaje" required>
+</div>
 
-<button type="submit" class="btn btn-outline-light">Siguiente</button>
-<button type="reset" class="btn btn-outline-light">Deshacer</button>
+<div class="container">
+    <div class="row">
+        <div class="d-flex justify-content-center">
+            <div class="col-4">
+                <button type="submit" class="btn btn-light">Enviar</button>
+            </div>
+            <div class="col-2">
+                <button type="reset" class="btn btn-light">Deshacer</button>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+
 </div>
 
     </form>

@@ -286,6 +286,39 @@ footer h4 {
     transform: perspective(600px) rotateY(0deg)
 }
 
+
+/* Paso 3 */
 .titulo_paso_3 {
     color: white;
+}
+
+/* Contacto */
+#nombre_contacto {
+    width: 100%;
+}
+
+#apellido_contacto {
+    width: 100%;
+}
+
+#correo_contacto {
+    width: 100%;
+}
+
+#mensaje {
+    width: 100%;
+    height: 60px;
+}
+
+/* Paso 3 */
+#superficie_total {
+    width: 49.5%;
+}
+
+#superficie_cubierta {
+    width: 49.4%;
+}
+
+#plantas {
+    width: 100%;
 }

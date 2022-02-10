@@ -74,7 +74,7 @@ footer {
     background-color: black;
     color: white;
     height: 200px;
-    margin-top: 500px;
+    margin-top: 20%;
     text-align: center;
 }
 
@@ -100,8 +100,12 @@ footer p {
 }
 
 footer h4 {
-    margin-left: 200px;
+    margin-left: 160px;
     padding: 20px;
+}
+
+.otro_contacto {
+    margin-top: 1.5%;
 }
 
 /* Sobre nosotros */
@@ -285,32 +289,42 @@ footer h4 {
 .card:hover > .back{
     transform: perspective(600px) rotateY(0deg)
 }
+/* Paso 2 */
+#departamento {
+    margin-bottom: 5%;
+}
 
+#tipo_de_inmueble {
+    margin-bottom: 5%;
+}
+
+/* Contacto */
+#nombre_contacto {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#apellido_contacto {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#correo_contacto {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#mensaje {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 5%;
+}
 
 /* Paso 3 */
 .titulo_paso_3 {
     color: white;
 }
 
-/* Contacto */
-#nombre_contacto {
-    width: 100%;
-}
-
-#apellido_contacto {
-    width: 100%;
-}
-
-#correo_contacto {
-    width: 100%;
-}
-
-#mensaje {
-    width: 100%;
-    height: 60px;
-}
-
-/* Paso 3 */
 #superficie_total {
     width: 49.5%;
 }
@@ -321,4 +335,8 @@ footer h4 {
 
 #plantas {
     width: 100%;
+}
+
+#amenities {
+    margin-bottom: 5%;
 }
